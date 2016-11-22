@@ -1,6 +1,6 @@
 Latest Version 
 --------------
-##### _Oct 14st, 2016_ - v1.9.1
+##### _Nov 20st, 2016_ - v1.9.3
 
 Getting Started
 ---------------

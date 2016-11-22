@@ -8,4 +8,4 @@ Check out our [official documentation](https://www.devtodev.com/help/3/devtodev_
 
 Changelog
 ---------
-See [wiki page](https://www.devtodev.com/downloads/more/3).
+See [releases](https://github.com/devtodev-analytics/ios-sdk/releases).

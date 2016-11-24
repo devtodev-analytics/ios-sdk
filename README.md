@@ -10,6 +10,22 @@ Changelog
 ---------
 See [releases](https://github.com/devtodev-analytics/ios-sdk/releases).
 
+#### Version 1.9.3
+*	iOS 7 push compatibility
+*	Unused data removed from events
+
+#### Version 1.9.1-1.9.2
+*	Decreased size of framework
+*	Disabled clang modules
+*	Removed deprecated anticheat methods
+*	Some minor fixes
+
+#### Version 1.9
+*	iOs 10 support 
+*	Added the ability to attach media files into the push notification
+*	Added interactivity to push-notifications: buttons, sharing, URLs, deeplinks, sound control.
+*	Framework distribution
+
 #### Version 1.8.1
 Added possibility to generate several progression events within one session
 

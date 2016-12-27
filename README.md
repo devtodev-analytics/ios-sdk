@@ -5,6 +5,8 @@ Latest Version
 
 Installation
 ------------
+
+## CocoaPods
 ```
 platform :ios, '8.0'
 

@@ -17,7 +17,7 @@ end
 ```
 
 ```
-target ‘SampleExtensionTargetName’ do
+target ‘ExtensionTargetName’ do
 	platform :ios, ’10.0’
 	pod ‘devtodev/AppExtension’
 end

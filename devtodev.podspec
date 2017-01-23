@@ -8,8 +8,12 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://devtodev.com/"
   s.license      = "Apache License, Version 2.0"
-  s.author             = { "devtodev" => "info@devtodev.com" }
-  s.source       = { :git => "https://github.com/devtodev-analytics/ios-sdk.git", :branch => "master", :tag => s.version }
+  s.author       = { "devtodev" => "info@devtodev.com" }
+  s.source       = { 
+    :git => "https://github.com/devtodev-analytics/ios-sdk.git", 
+    :branch => "master", 
+    :tag => "v" + s.version.to_s 
+  }
   s.default_subspec = 'devtodev'
 
   s.subspec 'devtodev' do |sub|

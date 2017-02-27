@@ -1,0 +1,6 @@
+framework module devtodevAppExtensions {
+  umbrella header "devtodevAppExtensions.h"
+
+  export *
+  module * { export * }
+}

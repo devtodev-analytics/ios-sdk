@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "devtodev"
-  s.version      = "1.14.1"
+  s.version      = "1.14.2"
   s.summary      = "devtodev for iOS"
   s.description  = <<-DESC
   devtodev is a powerful analytical and marketing platform for mobile and web applications. Gather all the data of your application in one simple interface and analyze every bite of it. With devtodev, it is easy to find the weak points, to improve traffic source efficiency and to build strong communications with the customers.
@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   s.homepage     = "https://devtodev.com/"
   s.license      = "Apache License, Version 2.0"
   s.author       = { "devtodev" => "info@devtodev.com" }
-  s.source       = { 
-    :git => "https://github.com/devtodev-analytics/ios-sdk.git", 
-    :branch => "master", 
-    :tag => "v" + s.version.to_s 
+  s.source       = {
+    :git => "https://github.com/devtodev-analytics/ios-sdk.git",
+    :branch => "master",
+    :tag => "v" + s.version.to_s
   }
   s.default_subspec = 'devtodev'
 

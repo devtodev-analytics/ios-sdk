@@ -1,0 +1,6 @@
+framework module devtodev {
+  umbrella header "devtodev.h"
+
+  export *
+  module * { export * }
+}

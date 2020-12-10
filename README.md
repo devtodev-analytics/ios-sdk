@@ -1,6 +1,6 @@
 Latest Version
 --------------
-##### _August 14, 2020_ - [v1.14.6](https://github.com/devtodev-analytics/ios-sdk/releases/latest)
+##### _December 10, 2020_ - [v1.14.7](https://github.com/devtodev-analytics/ios-sdk/releases/latest)
 
 
 Installation
@@ -8,7 +8,7 @@ Installation
 
 ## CocoaPods
 ```
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'TargetName' do
 	use_frameworks!

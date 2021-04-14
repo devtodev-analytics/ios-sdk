@@ -28,10 +28,12 @@ Pod::Spec.new do |s|
     :tag => "v" + s.version.to_s
   }
   s.default_subspec = 'devtodev'
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.subspec 'devtodev' do |sub|
     sub.ios.vendored_frameworks = "devtodev-ios " + s.version.to_s + "/devtodev.framework"
-    sub.frameworks = "Security", "UIKit", "UserNotifications", "AdSupport"
+    sub.frameworks = "Security", "UIKit", "UserNotifications", "AdSupport", "AppTrackingTransparency"
     sub.library   = "z"
     sub.ios.deployment_target = "8.0"
   end

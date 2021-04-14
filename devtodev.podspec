@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "devtodev"
-  s.version      = "1.14.7"
+  s.version      = "1.15.0"
   s.summary      = "devtodev for iOS"
   s.description  = <<-DESC
   devtodev is a powerful analytical and marketing platform for mobile and web applications. Gather all the data of your application in one simple interface and analyze every bite of it. With devtodev, it is easy to find the weak points, to improve traffic source efficiency and to build strong communications with the customers.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
     sub.ios.vendored_frameworks = "devtodev-ios " + s.version.to_s + "/devtodev.framework"
     sub.frameworks = "Security", "UIKit", "UserNotifications", "AdSupport"
     sub.library   = "z"
-    sub.ios.deployment_target = "9.0"
+    sub.ios.deployment_target = "8.0"
   end
 
   s.subspec 'AppExtension' do |sub|

@@ -2,6 +2,9 @@ Latest Version
 --------------
 ##### _December 16, 2021_ - [v1.16.0](https://github.com/devtodev-analytics/ios-sdk/releases/latest)
 
+**This generation of the SDK is deprecated and is no longer supported.**
+You can find the current version here: https://github.com/devtodev-analytics/ios-sdk-2.0
+
 
 Installation
 ------------
